@@ -3,6 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "jquery/dist/jquery.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

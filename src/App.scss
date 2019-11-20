@@ -1,7 +1,46 @@
 @import "variables";
 .App {
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.modal-footer {
+  border: none !important;
+}
+.modal-header {
+  border: none !important;
+}
+.modal-body {
+  padding-bottom: 0px !important;
+}
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  button {
+    background-color: $orangeBC;
+    border: none !important;
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+  }
+}
+.modal-title {
+  margin-top: 24px !important;
+  color: $orangeBC;
+}
+.close {
+  width: 30px !important;
+  height: 30px !important;
+  background-color: $orangeBC !important;
+  border-radius: 50% !important;
+  color: white !important;
+  opacity: 1 !important;
+  padding: 0px !important;
+  padding-bottom: 4px !important;
+  margin-right: 1px !important;
+  margin-top: 1px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }

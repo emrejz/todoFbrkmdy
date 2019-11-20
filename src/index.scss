@@ -2,10 +2,27 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: monospace;
+  overflow-x: hidden;
 }
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+  font-family: Roboto !important;
+}
+::-webkit-scrollbar {
+  width: 6px !important;
+  background-color: white;
+  opacity: 0.3 !important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #82898f !important;
+  width: 6px !important ;
+  height: 10px !important;
+  border-radius: 3px !important;
+  opacity: 0.3 !important;
+}
+
+::-webkit-scrollbar-track-piece {
+  display: none;
 }
