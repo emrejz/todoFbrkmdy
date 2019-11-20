@@ -25,8 +25,8 @@ const Main = () => {
       />
       <div className="contentCont">
         <div className="contentWrapper">
-          <div className="contentWrapper1">
-            <Search list={state.list} setList={setList} state={state} />
+          <Search list={state.list} setList={setList} state={state} />
+          <div className="listItemCont">
             {actvTab === 1 &&
               list.map(
                 item =>

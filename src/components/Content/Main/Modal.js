@@ -12,6 +12,7 @@ const Modal = () => {
   };
   return (
     <div
+      onMouseLeave={() => setText("")}
       className="modal fade"
       id="exampleModalCenter"
       tabIndex="-1"
@@ -39,6 +40,7 @@ const Modal = () => {
               <div className="form-group">
                 <textarea
                   onChange={e => setText(e.target.value)}
+                  value={text}
                   className="form-control"
                   id="message-text"
                 ></textarea>

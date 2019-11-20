@@ -54,11 +54,20 @@
   border-radius: 4px;
   position: relative;
 }
-.contentWrapper1 {
+.listItemCont {
   width: 100%;
-  height: 100%;
+  height: calc(100% - 93px);
   overflow: auto;
 }
+
+.listItemCont::-webkit-scrollbar {
+  width: 6px !important;
+}
+.listItemCont::-webkit-scrollbar-thumb {
+  background-color: rgba(130, 137, 143, 0.3) !important;
+  border-radius: 3px !important;
+}
+
 .search {
   height: 93px;
   border-bottom: 1px solid $borderC;
@@ -115,11 +124,7 @@
   background-color: $orangeBC;
   line-height: 30px;
 }
-.fixModal {
-  width: 100%;
-  height: 100%;
-  background-color: red !important;
-}
+
 @media only screen and (max-width: 700px) {
   .tab {
     width: 100%;
