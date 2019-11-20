@@ -1,0 +1,79 @@
+.menuContainer {
+  width: 130px;
+  color: white;
+  height: 100vh;
+  background-color: #343a3d;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #82898f;
+  overflow: hidden;
+
+  img {
+    width: 86px;
+    height: 74px;
+    margin-top: 16px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}
+.icons {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 111px;
+}
+.active {
+  height: 100%;
+  width: 8px;
+  position: absolute;
+  left: -4px;
+  top: 0px;
+  border-radius: 3px;
+  background-color: #ff503f;
+}
+.iconGrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.text {
+  margin-top: 17px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.unActvText {
+  color: #787878;
+}
+.exit {
+  position: absolute;
+  bottom: 50px;
+  left: 44px;
+  text-align: center;
+}
+.info {
+  position: absolute;
+  right: -2px;
+  top: -22px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #adadad;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .menuContainer {
+    display: none;
+  }
+}
