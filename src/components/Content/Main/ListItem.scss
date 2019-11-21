@@ -11,6 +11,11 @@
   padding-right: 30px;
   overflow-y: auto;
   overflow-x: hidden;
+  justify-content: space-between;
+}
+.flxRow {
+  display: flex;
+  flex-flow: row nowrap;
 }
 .checkBox {
   width: 32px;

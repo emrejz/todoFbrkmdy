@@ -18,7 +18,7 @@ const Header = ({ actvTab, setActvTab, activeMissions }) => {
         onClick={() => setActvTab(1)}
       >
         <img src={all} alt="all" />
-        <div>Tüm Görevler</div>
+        <div className="allMissionsText">Tüm Görevler</div>
       </div>
       <div
         className="tab"
