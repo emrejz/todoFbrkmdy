@@ -40,7 +40,7 @@
   transition: 1s ease;
 }
 .menuItem {
-  visibility: hidden !important;
+  display: none !important;
   padding: 10px;
   padding-left: 20px;
   &:nth-child(even) {
@@ -60,7 +60,7 @@
     display: none;
   }
   .menuItem {
-    visibility: visible !important;
+    display: block !important;
   }
 }
 @media only screen and (max-width: 800px) {
